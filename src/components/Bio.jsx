@@ -17,15 +17,15 @@ const Bio = () => {
           />
         </div>
         <div className="right-bio pt-3 md:max-w-lg">
-          <h1 className="text-black  px-2 mb-2 md:text-left text-3xl  md:px-0">
+          <h1 className="text-black  px-2 mb-2 text-2xl text-center   md:text-left md:text-3xl  md:px-0">
             Hi I'm a Fullstack Developer
           </h1>
-          <p className="text-gray-700 text-md text-left pl-2 md:pl-0 md:text-lg">
+          <p className="text-gray-700 text-md text-center md:text-left pl-2 md:pl-0 md:text-lg">
             Passionate Fullstack Developer with a strong focus on software
             development. Proficient in building robust and user‑friendly
             applications using modern web technologies.
           </p>
-          <button className="w-full  text-black px-2 py-2 rounded-lg mt-2 border-2 border-gray-700 bg-transparent mr-2">
+          <button className=" w-[300px] ml-14 mt-4 sm:ml-0 sm:w-full md:w-full md:ml-0  text-black px-2 py-2 rounded-lg md:mt-2 border-2 border-gray-700 bg-transparent mr-2">
             <span className="mr-4">Resume</span>
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
           </button>
