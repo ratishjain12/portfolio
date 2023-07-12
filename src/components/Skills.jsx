@@ -9,7 +9,7 @@ import dart from "../assets/dart.png";
 function Skills() {
   return (
     <div className="w-[90%] mx-auto mt-20 mb-8 " id="skills">
-      <h1 className="text-white text-4xl mb-8 text-center">Skills</h1>
+      <h1 className=" text-4xl mb-8 text-center">Skills</h1>
       <div className="skills-container grid grid-rows-2 gap-4 px-6 py-4 ">
         <div className="grid grid-cols-4 gap-16 mx-auto">
           <img className="w-[80px]" src={html} alt="" />

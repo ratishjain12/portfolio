@@ -2,6 +2,7 @@ import Header from "./components/Header.jsx";
 import Bio from "./components/Bio.jsx";
 import Skills from "./components/Skills.jsx";
 import "./App.css";
+import Projects from "./components/Projects.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       {/* Skills section */}
       <Skills />
       {/* Project section */}
+      <Projects />
       {/* Contact section */}
     </div>
   );
