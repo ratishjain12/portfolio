@@ -9,7 +9,7 @@ import dart from "../assets/dart.png";
 function Skills() {
   return (
     <div
-      className="w-[94%] h-[90vh] mx-auto flex items-center flex-col pt-8 justify-center "
+      className="w-[94%] h-[90vh] mx-auto flex items-center flex-col pt-4 justify-center "
       id="skills"
     >
       <h1 className=" text-4xl mb-8 text-center">Skills</h1>

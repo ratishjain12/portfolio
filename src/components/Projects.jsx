@@ -5,7 +5,7 @@ const Projects = () => {
   const [projects, setProjects] = useState(projectData);
   return (
     <div
-      className="projects-section w-[90%] mx-auto mb-12 pt-16 pb-20"
+      className="projects-section w-[90%] mx-auto mb-12 pt-16 pb-20 flex flex-col justify-center"
       id="projects"
     >
       <h1 className="text-3xl text-center mb-6">Projects</h1>
@@ -15,6 +15,9 @@ const Projects = () => {
             <Projectcard {...project} key={project.id} />
           ))}
       </div>
+      <button className="w-[72%] mx-auto mt-8 border-2 border-purple-500 py-2 text-lg md:w-[78%]">
+        See more projects
+      </button>
     </div>
   );
 };

@@ -8,7 +8,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 const Bio = () => {
   return (
-    <div className="bio container mx-auto h-[70vh] pt-16" id="bio">
+    <div className="bio container mx-auto h-[66vh] pt-16" id="bio">
       <div className="bio-card  bg-white rounded-lg w-[90%] mx-auto p-5 md:p-12 md:flex gap-10 items-center justify-center md:max-w-4xl  ">
         <div className="left-bio ">
           <img
