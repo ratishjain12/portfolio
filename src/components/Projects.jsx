@@ -1,10 +1,20 @@
 import Projectcard from "./Projectcard";
-
+import projectData from "./projectData";
+import { useState } from "react";
 const Projects = () => {
+  const [projects, setProjects] = useState(projectData);
   return (
-    <div className="projects-section mt-16 container mx-auto mb-12">
+    <div
+      className="projects-section w-[90%] mx-auto mb-12 pt-16 pb-20"
+      id="projects"
+    >
       <h1 className="text-3xl text-center mb-6">Projects</h1>
-      <Projectcard />
+      <div className="projects-container flex flex-wrap justify-center gap-4">
+        {projects.length > 0 &&
+          projects.map((project) => (
+            <Projectcard {...project} key={project.id} />
+          ))}
+      </div>
     </div>
   );
 };

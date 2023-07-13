@@ -1,19 +1,20 @@
+import { HashLink as Link } from "react-router-hash-link";
 const Header = () => {
   return (
-    <header className="header">
-      <nav className=" h-[50px] mb-6 flex items-center ">
+    <header className="header ">
+      <nav className="h-[50px] mb-6 flex items-center ">
         <ul className="flex justify-evenly  max-w-6xl mx-auto flex-1 ">
           <li>
-            <a href="">Bio</a>
+            <Link to="#bio">Bio</Link>
           </li>
           <li>
-            <a href="">Skills</a>
+            <Link to="#skills">Skills</Link>
           </li>
           <li>
-            <a href="">Projects</a>
+            <Link to="#projects">Projects</Link>
           </li>
           <li>
-            <a href="">Hire me</a>
+            <Link to="">Hire me</Link>
           </li>
         </ul>
       </nav>

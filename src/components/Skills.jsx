@@ -8,9 +8,12 @@ import flutter from "../assets/flutter.png";
 import dart from "../assets/dart.png";
 function Skills() {
   return (
-    <div className="w-[90%] mx-auto mt-20 mb-8 " id="skills">
+    <div
+      className="w-[94%] h-[90vh] mx-auto flex items-center flex-col pt-8 justify-center "
+      id="skills"
+    >
       <h1 className=" text-4xl mb-8 text-center">Skills</h1>
-      <div className="skills-container grid grid-rows-2 gap-4 px-6 py-4 ">
+      <div className="skills-container grid grid-rows-2 gap-8 px-2 py-4">
         <div className="grid grid-cols-4 gap-16 mx-auto">
           <img className="w-[80px]" src={html} alt="" />
           <img className="w-[80px]" src={css} alt="" />
