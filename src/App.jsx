@@ -3,6 +3,8 @@ import Bio from "./components/Bio.jsx";
 import Skills from "./components/Skills.jsx";
 import "./App.css";
 import Projects from "./components/Projects.jsx";
+import ContactMe from "./components/ContactMe.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       {/* Project section */}
       <Projects />
       {/* Contact section */}
+      <ContactMe />
+      <Footer />
     </div>
   );
 }

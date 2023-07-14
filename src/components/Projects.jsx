@@ -15,7 +15,7 @@ const Projects = () => {
             <Projectcard {...project} key={project.id} />
           ))}
       </div>
-      <button className="w-[72%] mx-auto mt-8 border-2 border-purple-500 py-2 text-lg md:w-[78%]">
+      <button className="w-[72%] mx-auto mt-8 border-2 border-black py-2 text-lg md:w-[78%]">
         See more projects
       </button>
     </div>
