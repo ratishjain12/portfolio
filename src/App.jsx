@@ -5,7 +5,8 @@ import "./App.css";
 import Projects from "./components/Projects.jsx";
 import ContactMe from "./components/ContactMe.jsx";
 import Footer from "./components/Footer.jsx";
-
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
     <div>
@@ -20,6 +21,17 @@ function App() {
       {/* Contact section */}
       <ContactMe />
       <Footer />
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        theme="dark"
+      />
     </div>
   );
 }
