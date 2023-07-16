@@ -57,14 +57,11 @@ const ContactMe = () => {
 
   return (
     <div
-      className="form-container container mx-auto bg-[#eef1ef] p-12 my-2"
+      className="form-container container mx-auto bg-[#eef1ef] p-12 my-1"
       id="contact"
     >
-      <div
-        style={{ maxWidth: "76%", margin: "30px auto" }}
-        className="bg-white shadow-md mb-12 bottom-2 border-gray-900 rounded-md"
-      >
-        <h2 className="text-center text-4xl mb-2 pt-4">Contact Me</h2>
+      <div className="bg-white shadow-md mb-12 bottom-2 border-gray-900 rounded-md w-[98%] my-[10px] mx-auto md:w-[79%]">
+        <h2 className="text-center text-4xl mb-2 pt-4">Let's talk</h2>
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="px-4 py-8"
