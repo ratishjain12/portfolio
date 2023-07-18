@@ -10,21 +10,21 @@ import { Link } from "react-router-dom";
 const Bio = () => {
   return (
     <div
-      className="relative bio container mx-auto h-[600px] pt-16 md:mb-4"
+      className="relative bio container mx-auto h-[600px] pt-16 md:mb-2"
       id="bio"
     >
       <div className="bio-card h-[400px] bg-white rounded-lg w-[90%] mx-auto p-5 md:p-12 md:flex gap-10 items-center justify-center md:max-w-4xl  ">
         <div className="left-bio ">
           <img
             src={bioLogo}
-            className=" max-w-[176px] h-44 rounded-full mx-auto"
+            className="max-w-[172px] h-44  md:max-w-[176px] md:h-44 rounded-full mx-auto"
           />
         </div>
-        <div className="right-bio pt-3 md:max-w-lg flex flex-col items-center justify-center">
-          <h1 className="text-black  px-2 mb-2 text-2xl text-center   md:text-left md:text-3xl  md:px-0">
+        <div className="right-bio pt-3 md:max-w-lg flex flex-col items-center justify-center md:items-start">
+          <h1 className="text-black  px-2 mb-2 text-xl sm:text-3xl text-center md:text-left md:text-3xl  md:px-0">
             Hi I'm a Fullstack Developer
           </h1>
-          <p className="text-gray-700 text-sm sm:text-md text-center md:text-left  md:pl-0 md:text-lg">
+          <p className="text-gray-700 text-[0.68rem] text-center  sm:text-[1.2rem]  sm:text-center md:text-left  md:pl-0 md:text-lg">
             Passionate Fullstack Developer with a strong focus on software
             development. Proficient in building robust and user‑friendly
             applications using modern web technologies.

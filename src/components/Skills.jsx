@@ -9,22 +9,22 @@ import dart from "../assets/dart.png";
 function Skills() {
   return (
     <div
-      className="w-[94%] h-[90vh] mx-auto flex items-center flex-col pt-4 justify-center mt-8 md:mt-36"
+      className="w-[94%] h-[400px] md:h-[650px] mx-auto flex items-center flex-col pt-4 justify-center md:mt-16"
       id="skills"
     >
       <h1 className=" text-4xl mb-8 text-center">Skills</h1>
       <div className="skills-container grid grid-rows-2 gap-8 px-2 py-4">
         <div className="grid grid-cols-4 gap-2 md:gap-16 mx-auto">
-          <img className="w-[180px]  md:w-[80px]" src={html} alt="" />
-          <img className="w-[180px]  md:w-[80px]" src={css} alt="" />
-          <img className="w-[180px]  md:w-[70px]" src={js} alt="" />
-          <img className="w-[180px]  md:w-[80px]" src={react} alt="" />
+          <img className="w-[90px]  md:w-[80px]" src={html} alt="" />
+          <img className="w-[90px] md:w-[80px]" src={css} alt="" />
+          <img className="w-[90px]  md:w-[70px]" src={js} alt="" />
+          <img className="w-[90px]  md:w-[80px]" src={react} alt="" />
         </div>
         <div className="grid grid-cols-4 gap-2 md:gap-16 mx-auto">
-          <img className="w-[180px] md:w-[80px]" src={nodejs} alt="" />
-          <img className="w-[180px] md:w-[80px]" src={mongodb} alt="" />
-          <img className="w-[180px] md:w-[80px]" src={flutter} alt="" />
-          <img className="w-[180px] md:w-[80px]" src={dart} alt="" />
+          <img className="w-[90px] md:w-[80px]" src={nodejs} alt="" />
+          <img className="w-[90px] md:w-[80px]" src={mongodb} alt="" />
+          <img className="w-[90px] md:w-[80px]" src={flutter} alt="" />
+          <img className="w-[90px] md:w-[80px]" src={dart} alt="" />
         </div>
       </div>
     </div>
