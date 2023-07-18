@@ -1,5 +1,6 @@
 import usabilityImg from "../assets/Usability Hub.png";
 import discordClone from "../assets/Discord Clone.png";
+import Blogify from "../assets/blogify.png";
 const data = [
   {
     id: 1,
@@ -19,11 +20,11 @@ const data = [
   },
   {
     id: 3,
-    title: "Discord clone",
-    img: discordClone,
-    stack: "HTML TAILWIND JAVASCRIPT GSAP ",
-    live: "https://discord-clone-sepia.vercel.app/",
-    source: "https://github.com/ratishjain12/Discord-clone-tailwind",
+    title: "Blogify",
+    img: Blogify,
+    stack: "REACTJS MONGODB EXPRESSJS NODEJS ",
+    live: "https://blogify-mern-app.vercel.app/",
+    source: "https://github.com/ratishjain12/Blogify-mern-app",
   },
 ];
 
