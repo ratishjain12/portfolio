@@ -56,10 +56,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div
-      className="form-container container mx-auto bg-[#eef1ef] p-12 my-1"
-      id="contact"
-    >
+    <div className="form-container  bg-[#eef1ef] p-12 my-1" id="contact">
       <div className="bg-white shadow-md mb-12 bottom-2 border-gray-900 rounded-md w-[98%] my-[10px] mx-auto md:w-[79%]">
         <h2 className="text-center text-4xl mb-2 pt-4">Let's talk</h2>
         <form

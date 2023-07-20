@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Projectcard from "./Projectcard";
 import projectData from "./projectData";
 import { useState } from "react";
@@ -15,9 +16,11 @@ const Projects = () => {
             <Projectcard {...project} key={project.id} />
           ))}
       </div>
-      <button className="w-[92%] mx-auto mt-8 border-2 border-black py-2 text-lg md:w-[91%] hover:bg-black hover:text-white">
-        See more projects
-      </button>
+      <Link to="/projects">
+        <button className="w-[92%] mx-auto mt-8 border-2 border-black py-2 text-lg md:w-[91%] hover:bg-black hover:text-white flex justify-center">
+          See more projects
+        </button>
+      </Link>
     </div>
   );
 };
