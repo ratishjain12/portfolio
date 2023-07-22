@@ -1,6 +1,9 @@
 import usabilityImg from "../assets/Usability Hub.png";
 import discordClone from "../assets/Discord Clone.png";
 import Blogify from "../assets/blogify.png";
+import pocketplanner from "../assets/Pocketplanner.png";
+import notesapp from "../assets/notesapp.png";
+import GroupieChat from "../assets/groupchat.jpeg";
 const data = [
   {
     id: 1,
@@ -27,6 +30,30 @@ const data = [
     category: "mern",
     stack: "REACTJS MONGODB EXPRESSJS NODEJS ",
     live: "https://blogify-mern-app.vercel.app/",
+    source: "https://github.com/ratishjain12/Blogify-mern-app",
+  },
+  {
+    id: 4,
+    title: "Pocket Planner",
+    img: pocketplanner,
+    category: "flutter",
+    stack: "FLUTTER FIREBASE DART ",
+    source: "https://github.com/ratishjain12/Blogify-mern-app",
+  },
+  {
+    id: 5,
+    title: "Notes App",
+    img: notesapp,
+    category: "flutter",
+    stack: "FLUTTER DART MONGODB NODEJS",
+    source: "https://github.com/ratishjain12/Blogify-mern-app",
+  },
+  {
+    id: 6,
+    title: "Groupie Chat App",
+    img: GroupieChat,
+    category: "flutter",
+    stack: "FLUTTER DART FIREBASE",
     source: "https://github.com/ratishjain12/Blogify-mern-app",
   },
 ];

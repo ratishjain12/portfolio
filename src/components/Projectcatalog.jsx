@@ -25,7 +25,7 @@ function Projectcatalog() {
               changeTab(1);
             }}
           >
-            HTML CSS
+            HTML CSS JS
           </button>
           <button
             className={toggle === 2 ? "border-b-2 border-blue-500" : "border-0"}
@@ -70,7 +70,18 @@ function Projectcatalog() {
             </div>
           </div>
         )}
-        <div className="tab3"></div>
+        {toggle === 3 && (
+          <div className="tab2 w-[90%] mx-auto">
+            <div className="w-full flex justify-center items-center flex-wrap">
+              {projects.length > 0 &&
+                projects.map((project) => {
+                  if (project.category == "flutter") {
+                    return <Projectcard {...project} key={project.id} />;
+                  }
+                })}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
