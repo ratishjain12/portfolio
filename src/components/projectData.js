@@ -1,7 +1,7 @@
 import usabilityImg from "../assets/Usability Hub.png";
 import discordClone from "../assets/Discord Clone.png";
 import Blogify from "../assets/blogify.png";
-import pocketplanner from "../assets/Pocketplanner.png";
+import pocketplanner from "../assets/pocketplanner.png";
 import notesapp from "../assets/notesapp.png";
 import GroupieChat from "../assets/groupchat.jpeg";
 const data = [
