@@ -4,7 +4,7 @@ import SourceIcon from "@mui/icons-material/Source";
 function Projectcard({ title, img, stack, live, source }) {
   return (
     <div className="project-card w-[290px] md:w-[380px] md:shadow-md border-2 rounded-md border-gray-300 flex flex-col justify-evenly m-4 items-center md:border-none">
-      <img src={img} className="w-full h-[240px]" />
+      <img src={img} className="w-full h-[240px] rounded-md" />
       <h4 className="text-center mt-2 text-2xl">{title}</h4>
       <p className="mt-4 mb-4 px-4">
         <b>Stack: </b>
