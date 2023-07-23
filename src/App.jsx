@@ -4,7 +4,7 @@ import "./App.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Route, Routes } from "react-router-dom";
-import Projectcatalog from "./components/ProjectCatalog.jsx";
+import Projectcatalog from "./components/Projectcatalog.jsx";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 function App() {
   function scrollToTop() {
