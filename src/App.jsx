@@ -5,9 +5,13 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Route, Routes } from "react-router-dom";
 import Projectcatalog from "./components/ProjectCatalog.jsx";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 function App() {
+  function scrollToTop() {
+    window.scrollTo("top", 0);
+  }
   return (
-    <div>
+    <div className="relative">
       {/* Header Section  */}
       <Routes>
         <Route path="/" element={<Header />}>
@@ -15,7 +19,11 @@ function App() {
         </Route>
         <Route path="/projects" element={<Projectcatalog />} />
       </Routes>
-
+      <button className="right-4 bottom-12 z-50 fixed" onClick={scrollToTop}>
+        <div className="bg-black p-2 shadow-md rounded-lg text-white cursor-pointer">
+          <ArrowUpwardIcon />
+        </div>
+      </button>
       <ToastContainer
         position="top-right"
         autoClose={5000}

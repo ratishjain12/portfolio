@@ -12,9 +12,9 @@ const Projects = () => {
       <h1 className="text-3xl text-center mb-6">Projects</h1>
       <div className="projects-container flex flex-wrap justify-center gap-4">
         {projects.length > 0 &&
-          projects.map((project) => (
-            <Projectcard {...project} key={project.id} />
-          ))}
+          projects
+            .slice(0, 6)
+            .map((project) => <Projectcard {...project} key={project.id} />)}
       </div>
       <Link to="/projects">
         <button className="w-[280px] sm:[320px] mx-auto mt-8 border-2 border-black py-2 text-lg hover:bg-black hover:text-white flex justify-center">
