@@ -64,7 +64,7 @@ const Bio = () => {
             </div>
           </div>
         </div>
-        <div className=" icon-scroll  md:mb-6 top-[20%] sm:top-[29%] md:top-[90%]"></div>
+        <div className=" icon-scroll hidden md:block md:mb-6 top-[20%] sm:top-[29%] md:top-[90%]"></div>
       </div>
       {/* Bio section */}
 
