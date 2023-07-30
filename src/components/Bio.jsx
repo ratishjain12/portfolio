@@ -35,10 +35,15 @@ const Bio = () => {
               applications using modern web technologies.
             </p>
             <div className="w-full flex justify-center">
-              <button className=" w-[300px]  mt-4  sm:w-full md:w-full md:ml-0  text-black px-2 py-2 rounded-lg md:mt-2 border-2 border-gray-700 bg-transparent mr-2 hover:bg-black hover:text-white">
-                <span className="mr-4 ">Resume</span>
-                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-              </button>
+              <Link
+                to="https://drive.google.com/file/d/1Ab812UE00lFtlxx6zg1NTV4LfQxLjf0i/view?usp=sharing"
+                className="w-full flex justify-center"
+              >
+                <button className=" w-[300px]  mt-4  sm:w-full md:w-full md:ml-0  text-black px-2 py-2 rounded-lg md:mt-2 border-2 border-gray-700 bg-transparent mr-2 hover:bg-black hover:text-white">
+                  <span className="mr-4 ">Resume</span>
+                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                </button>
+              </Link>
             </div>
           </div>
           <div className="socials flex order-3 justify-evenly mt-6 md:flex-col md:order-first md:mt-0 md:h-full">
