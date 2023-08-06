@@ -4,6 +4,7 @@ import Blogify from "../assets/blogify.png";
 import pocketplanner from "../assets/pocketplanner.png";
 import notesapp from "../assets/notesapp.png";
 import GroupieChat from "../assets/groupchat.jpeg";
+import taskmanager from "../assets/taskmanager.jpeg";
 const data = [
   {
     id: 1,
@@ -31,6 +32,15 @@ const data = [
     stack: "REACTJS MONGODB EXPRESSJS NODEJS ",
     live: "https://blogify-mern-app.vercel.app/",
     source: "https://github.com/ratishjain12/Blogify-mern-app",
+  },
+  {
+    id: 7,
+    title: "Task Manager",
+    img: taskmanager,
+    category: "mern",
+    stack: "REACTJS MONGODB EXPRESSJS NODEJS ",
+    live: "https://taskmanager-mern.vercel.app/",
+    source: "https://github.com/ratishjain12/taskmanager-mern",
   },
   {
     id: 4,
