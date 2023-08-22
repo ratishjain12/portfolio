@@ -5,6 +5,7 @@ import pocketplanner from "../assets/pocketplanner.png";
 import notesapp from "../assets/notesapp.png";
 import GroupieChat from "../assets/groupchat.jpeg";
 import taskmanager from "../assets/taskmanager.png";
+import shopit from "../assets/shopit.png";
 const data = [
   {
     id: 1,
@@ -26,6 +27,14 @@ const data = [
   },
   {
     id: 3,
+    title: "Shopit Ecom Store",
+    img: shopit,
+    category: "mern",
+    stack: "REACTJS MONGODB EXPRESSJS NODEJS STRIPE",
+    source: "https://github.com/ratishjain12/shopit",
+  },
+  {
+    id: 8,
     title: "Blogify",
     img: Blogify,
     category: "mern",
