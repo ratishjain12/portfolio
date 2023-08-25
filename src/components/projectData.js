@@ -6,6 +6,8 @@ import notesapp from "../assets/notesapp.png";
 import GroupieChat from "../assets/groupchat.jpeg";
 import taskmanager from "../assets/taskmanager.png";
 import shopit from "../assets/shopit.png";
+import myProperty from "../assets/myProperty.png";
+
 const data = [
   {
     id: 1,
@@ -24,6 +26,15 @@ const data = [
     category: "html",
     live: "https://discord-clone-sepia.vercel.app/",
     source: "https://github.com/ratishjain12/Discord-clone-tailwind",
+  },
+  {
+    id: 9,
+    title: "MyProperty Real Estate",
+    img: myProperty,
+    stack: "HTML CSS JAVASCRIPT PHP ",
+    category: "html",
+    live: "http://www.myproperty.byethost12.com/",
+    source: "https://github.com/ratishjain12/real-estate-landingpage",
   },
   {
     id: 3,
