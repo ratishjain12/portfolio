@@ -6,7 +6,7 @@ import notesapp from "../assets/notesapp.png";
 import GroupieChat from "../assets/groupchat.jpeg";
 import taskmanager from "../assets/taskmanager.png";
 import shopit from "../assets/shopit.png";
-import myProperty from "../assets/myProperty.png";
+import myProperty from "../assets/website.jpg";
 
 const data = [
   {
