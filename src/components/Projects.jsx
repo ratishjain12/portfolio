@@ -3,7 +3,7 @@ import Projectcard from "./Projectcard";
 import projectData from "./projectData";
 import { useState } from "react";
 const Projects = () => {
-  const [projects, setProjects] = useState(projectData);
+  const [projects] = useState(projectData);
   return (
     <div
       className="projects-section w-[90%] mx-auto mb-12 pt-16 pb-20 flex flex-col justify-center"

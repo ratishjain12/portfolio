@@ -1,12 +1,15 @@
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import projectData from "./projectData";
 import Projectcard from "./Projectcard";
 function Projectcatalog() {
-  const [projects, setProjects] = useState(projectData);
+  const [projects] = useState(projectData);
   const [toggle, setToggle] = useState(1);
 
+  useEffect(() => {
+    window.scrollTo("Top", 0);
+  }, []);
   function changeTab(id) {
     setToggle(id);
   }

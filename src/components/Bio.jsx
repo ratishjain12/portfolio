@@ -71,6 +71,17 @@ const Bio = () => {
         </div>
         <div className=" icon-scroll hidden md:block md:mb-6 top-[20%] sm:top-[29%] md:top-[90%]"></div>
       </div>
+      {/* Contributions */}
+      <div className="mx-auto mt-6 py-8 px-8 md:py-12 md:px-0 bg-gray-300">
+        <p className="text-2xl text-center mb-6 bg-white rounded-sm">
+          Open Source Contributions{" "}
+        </p>
+        <img
+          className="mx-auto bg-white p-3 rounded-lg shadow-sm object-contain"
+          src="https://ghchart.rshah.org/ratishjain12"
+          alt="2016rshah's Github chart"
+        />
+      </div>
       {/* Bio section */}
 
       {/* Skills section */}
