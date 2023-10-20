@@ -4,7 +4,7 @@ import "./App.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Route, Routes } from "react-router-dom";
-import Projectcatalog from "./components/ProjectCatalog.jsx";
+import Projectcatalog from "./components/Catalog.jsx";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import { useState } from "react";
 function App() {
@@ -12,6 +12,7 @@ function App() {
     window.scrollTo("top", 0);
   }
   const [scroll, setScroll] = useState(false);
+
   window.addEventListener("scroll", scrollFunction);
 
   function scrollFunction() {
