@@ -20,7 +20,7 @@ const Header = () => {
                 to="#contact"
                 className="bg-black text-white px-4 py-2 rounded-full shadow-sm"
               >
-                Hire me
+                Contact Me
               </Link>
             </li>
           </ul>

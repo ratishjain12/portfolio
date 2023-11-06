@@ -4,7 +4,7 @@ import "./App.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Route, Routes } from "react-router-dom";
-import Projectcatalog from "./components/Catalog.jsx";
+
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import { useState } from "react";
 function App() {
@@ -33,7 +33,6 @@ function App() {
         <Route path="/" element={<Header />}>
           <Route index element={<Bio />} />
         </Route>
-        <Route path="/projects" element={<Projectcatalog />} />
       </Routes>
       {scroll && (
         <button className="right-4 bottom-12 z-50 fixed" onClick={scrollToTop}>

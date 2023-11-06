@@ -1,4 +1,4 @@
-import bioLogo from "../assets/Ratish Jain.jpg";
+import bioLogo from "../assets/Ratish Jain.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -10,15 +10,16 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
+import Blogs from "./Blogs";
 
 const Bio = () => {
   return (
     <>
       <div
-        className="relative bio container mx-auto h-[600px] pt-16 md:mb-2"
+        className="relative bio container mx-auto h-[560px] pt-16 md:mb-2"
         id="bio"
       >
-        <div className="bio-card h-[400px] bg-white rounded-lg w-[90%] mx-auto p-5 md:p-12 md:flex gap-10 items-center justify-center md:max-w-4xl  ">
+        <div className="bio-card  bg-white rounded-lg w-[90%] mx-auto p-5 md:p-12 md:flex gap-10 items-center justify-center md:max-w-4xl  ">
           <div className="left-bio ">
             <img
               src={bioLogo}
@@ -27,7 +28,7 @@ const Bio = () => {
           </div>
           <div className="right-bio pt-3 md:max-w-lg flex flex-col items-center justify-center md:items-start">
             <h1 className="text-black  px-2 mb-2 text-xl sm:text-3xl text-center md:text-left md:text-3xl  md:px-0">
-              Hi I'm a Fullstack Developer
+              Hi I am a Fullstack Developer
             </h1>
             <p className="text-gray-700 text-[0.68rem] text-center  sm:text-[1.2rem]  sm:text-center md:text-left  md:pl-0 md:text-lg">
               Passionate Fullstack Developer with a strong focus on software
@@ -63,32 +64,32 @@ const Bio = () => {
               </Link>
             </div>
             <div className="insta mb-2">
-              <Link to="https://www.instagram.com/ratish_45/">
+              <Link to="https://www.instagram.com/ratisshh/">
                 <InstagramIcon className="text-black hover:scale-125 transition-transform ease-out" />
               </Link>
             </div>
           </div>
         </div>
-        <div className=" icon-scroll hidden md:block md:mb-6 top-[20%] sm:top-[29%] md:top-[90%]"></div>
       </div>
       {/* Contributions */}
-      <div className="mx-auto mt-6 py-8 px-8 md:py-12 md:px-0 bg-gray-300">
-        <p className="text-2xl text-center mb-6 bg-white rounded-sm">
-          Open Source Contributions{" "}
+      <div className="mx-auto mt-6 py-8 px-8 md:py-12 md:px-0 bg-black/10 h-[400px] flex flex-col justify-center">
+        <p className="text-2xl text-center mb-6  text-white rounded-sm">
+          Open Source Contributions
         </p>
         <img
-          className="mx-auto bg-white p-3 rounded-lg shadow-sm object-contain"
+          className="mx-auto bg-white p-3 rounded-lg shadow-sm "
           src="https://ghchart.rshah.org/ratishjain12"
           alt="2016rshah's Github chart"
         />
       </div>
       {/* Bio section */}
-
       {/* Skills section */}
       <Skills />
       {/* Project section */}
       <Projects />
+
       {/* Contact section */}
+      <Blogs />
       <ContactMe />
       <Footer />
     </>
