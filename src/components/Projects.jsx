@@ -12,7 +12,7 @@ const Projects = () => {
       <div className="projects-container grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 xxl:grid-cols-4 gap-2 mx-auto">
         {projects.length > 0 &&
           projects
-            .slice(0, 4)
+            .slice(0, 8)
             .map((project) => <Projectcard {...project} key={project.id} />)}
       </div>
     </div>

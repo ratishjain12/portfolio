@@ -11,7 +11,7 @@ import myProperty from "../../assets/website.jpg";
 const data = [
   {
     id: 2,
-    title: "Discord Landing Page clone",
+    title: "Discord Landing Page Clone",
     img: discordClone,
     stack: "HTML TAILWIND JAVASCRIPT GSAP ",
     category: "html",
