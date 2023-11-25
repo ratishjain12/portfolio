@@ -48,7 +48,7 @@ const Blogs = () => {
         {articles.map((article, index) => (
           <div
             key={index}
-            className="min-w-1/4 cursor-pointer bg-gray-800 mb-4 mr-2 flex  flex-col gap-1 p-2 rounded-sm"
+            className=" min-w-[33%] cursor-pointer bg-gray-800 mb-4 mr-2 flex  flex-col gap-1 p-2 rounded-sm"
           >
             <img src={article.node.coverImage.url} className="rounded-sm" />
             <div className="flex flex-col justify-evenly gap-1 h-full">

@@ -9,7 +9,7 @@ const Header = () => {
             <li>
               <Link
                 to="#bio"
-                className="bg-gray-700 px-3 py-2 rounded-full text-sm"
+                className="bg-gray-700 px-3 py-2 rounded-full text-xs sm:text-sm"
               >
                 Bio
               </Link>
@@ -17,7 +17,7 @@ const Header = () => {
             <li>
               <Link
                 to="#skills"
-                className="bg-gray-700 px-4 py-2 rounded-full text-sm"
+                className="bg-gray-700 px-4 py-2 rounded-full text-xs sm:text-sm"
               >
                 Skills
               </Link>
@@ -25,7 +25,7 @@ const Header = () => {
             <li>
               <Link
                 to="#projects"
-                className="bg-gray-700 px-4 py-2 rounded-full text-sm"
+                className="bg-gray-700 px-3 py-2 rounded-full text-xs sm:text-sm"
               >
                 Projects
               </Link>
@@ -33,7 +33,7 @@ const Header = () => {
             <li>
               <Link
                 to="#blogs"
-                className="bg-gray-700 px-6 py-2 rounded-full text-sm"
+                className="bg-gray-700 px-4 py-2 rounded-full text-xs sm:text-sm"
               >
                 Blogs
               </Link>
@@ -41,9 +41,9 @@ const Header = () => {
             <li>
               <Link
                 to="#contact"
-                className="bg-black text-white px-3 py-2 rounded-full shadow-sm"
+                className="bg-black text-white px-3 py-2 rounded-full shadow-sm text-xs sm:text-sm"
               >
-                Contact Me
+                Contact
               </Link>
             </li>
           </ul>
