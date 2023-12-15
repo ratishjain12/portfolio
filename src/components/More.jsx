@@ -46,11 +46,12 @@ const More = () => {
             </div>
           </Link>
         </div>
-
-        <div className="bg-gray-300/10 max-h-[120px] p-12 rounded-lg text-center space-x-2 hover:bg-gray-400 transition-all ">
-          <span className="text-lg">GITHUB</span>
-          <GitHub />
-        </div>
+        <Link to={"https://github.com/ratishjain12"}>
+          <div className="bg-gray-300/10 max-h-[120px] p-12 rounded-lg text-center space-x-2 hover:bg-gray-400 transition-all ">
+            <span className="text-lg">GITHUB</span>
+            <GitHub />
+          </div>
+        </Link>
       </div>
     </div>
   );
