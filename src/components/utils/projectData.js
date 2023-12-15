@@ -1,5 +1,5 @@
 import usabilityImg from "../../assets/Usability Hub.png";
-import discordClone from "../../assets/Discord Clone.jpg";
+import aiclub from "../../assets/aiclub.png";
 import Blogify from "../../assets/blogify.png";
 import pocketplanner from "../../assets/pocketplanner.png";
 import notesapp from "../../assets/notesapp.png";
@@ -7,16 +7,26 @@ import GroupieChat from "../../assets/groupchat.jpeg";
 import taskmanager from "../../assets/taskmanager.jpg";
 import shopit from "../../assets/shopit.jpeg";
 import myProperty from "../../assets/website.jpg";
-
+import threads from "../../assets/threads.jpeg";
 const data = [
   {
-    id: 2,
-    title: "Discord Landing Page Clone",
-    img: discordClone,
-    stack: "HTML TAILWIND JAVASCRIPT GSAP ",
+    id: 1,
+    title: "Threads Clone",
+    img: threads,
+    stack: "NEXTJS POSTGRESQL PRISMA NEXTAUTH TAILWIND ",
     category: "html",
-    live: "https://discord-clone-sepia.vercel.app/",
-    source: "https://github.com/ratishjain12/Discord-clone-tailwind",
+    live: "https://aiclubscet.vercel.app/",
+    source: "https://github.com/ratishjain12/aiclubwebsite",
+  },
+
+  {
+    id: 2,
+    title: "AI Club",
+    img: aiclub,
+    stack: "NEXTJS TAILWINDCSS APPWRITE ",
+    category: "html",
+    live: "https://aiclubscet.vercel.app/",
+    source: "https://github.com/ratishjain12/aiclubwebsite",
   },
 
   {

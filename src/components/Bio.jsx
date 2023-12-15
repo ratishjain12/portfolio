@@ -11,6 +11,7 @@ import Projects from "./Projects";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
 import Blogs from "./Blogs";
+import More from "./More";
 
 const Bio = () => {
   return (
@@ -87,7 +88,8 @@ const Bio = () => {
       <Skills />
       {/* Project section */}
       <Projects />
-
+      {/* More Projects */}
+      <More />
       {/* Contact section */}
       <Blogs />
       <ContactMe />

@@ -5,7 +5,7 @@ const Projects = () => {
   const [projects] = useState(projectData);
   return (
     <div
-      className="projects-section w-[90%] mx-auto mb-12 pt-16 pb-20 flex flex-col justify-center"
+      className="projects-section w-[90%] mx-auto mb-3 pt-16 pb-12 flex flex-col justify-center"
       id="projects"
     >
       <h1 className="text-2xl text-center mb-6">Projects</h1>
