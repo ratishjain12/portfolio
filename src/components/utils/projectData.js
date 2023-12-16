@@ -15,8 +15,8 @@ const data = [
     img: threads,
     stack: "NEXTJS POSTGRESQL PRISMA NEXTAUTH TAILWIND ",
     category: "html",
-    live: "https://aiclubscet.vercel.app/",
-    source: "https://github.com/ratishjain12/aiclubwebsite",
+    live: "https://threads-clone-fullstack.vercel.app/",
+    source: "https://github.com/ratishjain12/threads-clone",
   },
 
   {
