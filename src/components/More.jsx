@@ -7,7 +7,7 @@ const More = () => {
     <div className="w-[90%] mx-auto ">
       <div className="mb-2 text-lg">More</div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-        <div className="bg-gray-300/10 w-full rounded-lg p-6 flex flex-col">
+        <div className="bg-gray-300/10 w-full rounded-lg p-6 flex flex-col gap-5">
           <Link to={"https://github.com/ratishjain12/Discord-clone-tailwind"}>
             <div className="mb-2">
               <div className="flex gap-2 items-center">
@@ -46,12 +46,24 @@ const More = () => {
             </div>
           </Link>
         </div>
-        <Link to={"https://github.com/ratishjain12"}>
-          <div className="bg-gray-300/10 max-h-[120px] p-12 rounded-lg text-center space-x-2 hover:bg-gray-400 transition-all ">
-            <span className="text-lg">GITHUB</span>
-            <GitHub />
-          </div>
-        </Link>
+        <div className="">
+          <Link to={"https://github.com/ratishjain12"}>
+            <div className="bg-gray-300/10 max-h-[120px] p-12 rounded-lg text-center space-x-2 hover:bg-gray-400 transition-all ">
+              <span className="text-lg">GITHUB</span>
+              <GitHub />
+            </div>
+          </Link>
+          <Link to={"https://devcon.hashnode.dev/"}>
+            <div className="bg-gray-300/10 max-h-[120px] p-12 rounded-lg text-center space-x-2 hover:bg-gray-400 transition-all flex justify-center mt-2 ">
+              <span className="text-lg">Hashnode</span>
+              <img
+                src="/hashnode.png"
+                alt="hashnode logo"
+                className="w-[30px] rounded-lg"
+              />
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   );
