@@ -33,8 +33,6 @@ const Blogs = () => {
     });
     const ApiResponse = await response.json();
     setArticles(ApiResponse.data.publication.posts.edges);
-    console.log("articles", articles);
-    console.log(ApiResponse);
   };
 
   useEffect(() => {
@@ -43,7 +41,7 @@ const Blogs = () => {
 
   return (
     <div className="p-12" id="blogs">
-      <h1 className="text-center text-3xl mb-2">Blogs</h1>
+      <h1 className="text-center text-2xl mb-2 mt-2">Blogs</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 ">
         {articles.map((article, index) => (
           <div

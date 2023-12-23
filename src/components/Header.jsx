@@ -1,9 +1,11 @@
 import { Outlet } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import MobileNav from "./MobileNav";
+
 const Header = () => {
   return (
     <div className="main">
-      <header className="header sticky top-0 z-50 ">
+      <header className="hidden md:block header sticky top-0 z-50 ">
         <nav className="h-[50px] mb-2 flex items-center bg-black/30 backdrop-blur-xl ">
           <ul className="flex justify-evenly  max-w-6xl mx-auto flex-1 ">
             <li>
@@ -49,6 +51,7 @@ const Header = () => {
           </ul>
         </nav>
       </header>
+      <MobileNav />
       <Outlet />
     </div>
   );
