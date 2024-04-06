@@ -1,5 +1,4 @@
 import usabilityImg from "../../assets/Usability Hub.png";
-import aiclub from "../../assets/aiclub.png";
 import Blogify from "../../assets/blogify.png";
 import pocketplanner from "../../assets/pocketplanner.png";
 import notesapp from "../../assets/notesapp.png";
