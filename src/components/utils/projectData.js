@@ -8,6 +8,7 @@ import taskmanager from "../../assets/taskmanager.jpg";
 import shopit from "../../assets/shopit.jpeg";
 import myProperty from "../../assets/website.jpg";
 import threads from "../../assets/threads.jpeg";
+import vercel from "../../assets/vercel.jpg";
 const data = [
   {
     id: 1,
@@ -17,16 +18,18 @@ const data = [
     category: "html",
     live: "https://threads-clone-fullstack.vercel.app/",
     source: "https://github.com/ratishjain12/threads-clone",
+    duration: 0.3,
   },
 
   {
     id: 2,
-    title: "AI Club",
-    img: aiclub,
-    stack: "NEXTJS TAILWINDCSS APPWRITE ",
+    title: "Vercel System Design Implementation",
+    img: vercel,
+    stack: "NODEJS AWS S3 REDIS EXPRESSJS REACT SHADCN ",
     category: "html",
-    live: "https://aiclubscet.vercel.app/",
-    source: "https://github.com/ratishjain12/aiclubwebsite",
+    source:
+      "https://github.com/ratishjain12/vercel-system-design-Implementation-",
+    duration: 0.5,
   },
 
   {
@@ -36,6 +39,7 @@ const data = [
     category: "mern",
     stack: "REACTJS MONGODB EXPRESSJS NODEJS STRIPE",
     source: "https://github.com/ratishjain12/shopit",
+    duration: 0.7,
   },
   {
     id: 8,
@@ -45,6 +49,7 @@ const data = [
     stack: "REACTJS MONGODB EXPRESSJS NODEJS ",
     live: "https://blogify-mern-app.vercel.app/",
     source: "https://github.com/ratishjain12/Blogify-mern-app",
+    duration: 0.9,
   },
   {
     id: 7,
@@ -54,6 +59,7 @@ const data = [
     stack: "REACTJS MONGODB EXPRESSJS NODEJS ",
     live: "https://taskmanager-mern.vercel.app/",
     source: "https://github.com/ratishjain12/taskmanager-mern",
+    duration: 1.1,
   },
   {
     id: 4,
@@ -62,6 +68,7 @@ const data = [
     category: "flutter",
     stack: "FLUTTER FIREBASE DART ",
     source: "https://github.com/ratishjain12/Blogify-mern-app",
+    duration: 1.3,
   },
   {
     id: 5,
@@ -70,14 +77,16 @@ const data = [
     category: "flutter",
     stack: "FLUTTER DART MONGODB NODEJS",
     source: "https://github.com/ratishjain12/Blogify-mern-app",
+    duration: 1.5,
   },
   {
     id: 6,
-    title: "Groupie Chat App",
+    title: "Groupie Chat Ap ",
     img: GroupieChat,
     category: "flutter",
     stack: "FLUTTER DART FIREBASE",
     source: "https://github.com/ratishjain12/Blogify-mern-app",
+    duration: 1.7,
   },
   {
     id: 1,

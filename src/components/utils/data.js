@@ -7,7 +7,14 @@ export const frontend = [
   "Flutter",
 ];
 
-export const backend = ["Nodejs", "Expressjs", "Next-Auth"];
+export const backend = [
+  "Nodejs",
+  "Expressjs",
+  "Next-Auth",
+  "Socket.io",
+  "FastAPI",
+  "AWS",
+];
 
 export const database = ["MySQL", "PostgreSQL", "Mongodb"];
 export const devOps = ["Docker", "GIT"];

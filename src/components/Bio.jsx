@@ -12,6 +12,7 @@ import ContactMe from "./ContactMe";
 import Footer from "./Footer";
 import Blogs from "./Blogs";
 import More from "./More";
+import { motion } from "framer-motion";
 
 const Bio = () => {
   return (
@@ -20,7 +21,12 @@ const Bio = () => {
         className="relative bio container mx-auto h-[560px] pt-16 md:mb-2"
         id="bio"
       >
-        <div className="bio-card  bg-white rounded-lg w-[90%] mx-auto p-5 md:p-12 md:flex gap-10 items-center justify-center md:max-w-4xl  ">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+          className="bio-card  bg-white rounded-lg w-[90%] mx-auto p-5 md:p-12 md:flex gap-10 items-center justify-center md:max-w-4xl  "
+        >
           <div className="left-bio ">
             <img
               src={bioLogo}
@@ -70,7 +76,7 @@ const Bio = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
       {/* Contributions */}
       <div className="mx-auto mt-6 py-8 px-8 md:py-12 md:px-0 bg-black/10 h-[400px] flex flex-col justify-center">
