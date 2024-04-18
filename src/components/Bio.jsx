@@ -11,9 +11,8 @@ import Projects from "./Projects";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
 import Blogs from "./Blogs";
-import More from "./More";
 import { motion } from "framer-motion";
-
+import "./styles.css";
 const Bio = () => {
   return (
     <>
@@ -79,7 +78,7 @@ const Bio = () => {
         </motion.div>
       </div>
       {/* Contributions */}
-      <div className="mx-auto mt-6 py-8 px-8 md:py-12 md:px-0 bg-black/10 h-[400px] flex flex-col justify-center">
+      {/* <div className="mx-auto mt-6 py-8 px-8 md:py-12 md:px-0 bg-black/10 h-[400px] flex flex-col justify-center">
         <p className="text-2xl text-center mb-6  text-white rounded-sm">
           Open Source Contributions
         </p>
@@ -88,15 +87,20 @@ const Bio = () => {
           src="https://ghchart.rshah.org/ratishjain12"
           alt="2016rshah's Github chart"
         />
-      </div>
+      </div> */}
       {/* Bio section */}
       {/* Skills section */}
       <Skills />
       {/* Project section */}
       <Projects />
-      {/* More Projects */}
-      <More />
-      {/* Contact section */}
+      <div className=" w-full flex justify-center">
+        <Link to="https://github.com/ratishjain12?tab=repositories">
+          <button className="big-button flex items-center gap-2">
+            Show More
+            <GitHubIcon />
+          </button>
+        </Link>
+      </div>
       <Blogs />
       <ContactMe />
       <Footer />
