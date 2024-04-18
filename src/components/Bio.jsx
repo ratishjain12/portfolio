@@ -102,6 +102,18 @@ const Bio = () => {
         </Link>
       </div>
       <Blogs />
+      <div className=" w-full flex justify-center mt-[-10px]">
+        <Link to="https://devcon.hashnode.dev/">
+          <button className="big-button flex items-center gap-4">
+            Hashnode
+            <img
+              src="/hashnode.png"
+              alt="hashnode logo"
+              className="w-[26px] rounded-lg"
+            />
+          </button>
+        </Link>
+      </div>
       <ContactMe />
       <Footer />
     </>
