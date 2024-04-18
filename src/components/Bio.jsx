@@ -1,4 +1,4 @@
-import bioLogo from "../assets/Ratish Jain.png";
+import bioLogo from "../assets/Ratish Jain.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
