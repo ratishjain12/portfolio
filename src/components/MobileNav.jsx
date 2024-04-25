@@ -5,7 +5,8 @@ const MobileNav = () => {
   return (
     <div className="block md:hidden fixed top-0 w-[100%] z-50 h-[40px]">
       <div className="flex justify-between p-2 items-center bg-black/80 ">
-        <p>Ratish Jain</p>
+        <img src="/logo.png" />
+        <p className="font-bold tracking-widest">Ratish Jain</p>
         <Dropdown
           label={<MenuIcon />}
           dismissOnClick={true}
