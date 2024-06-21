@@ -36,7 +36,7 @@ const Bio = () => {
             <h1 className="text-black  px-2 mb-2 text-xl sm:text-3xl text-center md:text-left md:text-3xl  md:px-0">
               Hi I am a Fullstack Developer
             </h1>
-            <p className="text-gray-700 text-[0.68rem] text-center  sm:text-[1.2rem]  sm:text-center md:text-left  md:pl-0 md:text-lg">
+            <p className="text-gray-700 text-[0.73rem] text-center  sm:text-[1.2rem]  sm:text-center md:text-left  md:pl-0 md:text-lg">
               Passionate Fullstack Developer with a strong focus on software
               development. Proficient in building robust and user‑friendly
               applications using modern web technologies.

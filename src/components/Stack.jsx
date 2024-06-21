@@ -1,4 +1,4 @@
-import { frontend, backend, database, devOps } from "./utils/data";
+import { frontend, backend, database, devOps, cloud } from "./utils/data";
 import { motion, useAnimationControls, useInView } from "framer-motion";
 import Chip from "@mui/material/Chip";
 import { useEffect, useRef } from "react";
@@ -90,6 +90,28 @@ const StackCard = () => {
         <p className="text-lg">DevOps</p>
         <div className="flex flex-wrap gap-2">
           {devOps.map((item, index) => {
+            return (
+              <Chip
+                label={item}
+                key={index}
+                size="medium"
+                variant="outlined"
+                sx={{ color: "white" }}
+              />
+            );
+          })}
+        </div>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={controls}
+        ref={ref}
+        transition={{ duration: 1.2 }}
+        className="card2 bg-gray-700 px-2 py-4 rounded-md space-y-2 "
+      >
+        <p className="text-lg">Cloud</p>
+        <div className="flex flex-wrap gap-2">
+          {cloud.map((item, index) => {
             return (
               <Chip
                 label={item}

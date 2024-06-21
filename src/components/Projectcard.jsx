@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useEffect } from "react";
 import { useRef } from "react";
 import { motion, useAnimationControls, useInView } from "framer-motion";
 // eslint-disable-next-line react/prop-types
-function Projectcard({ title, img, stack, source, duration }) {
+function Projectcard({ title, img, stack, source, duration, description }) {
   const controls = useAnimationControls();
   const ref = useRef(null);
   const isInView = useInView(ref);
@@ -26,11 +27,20 @@ function Projectcard({ title, img, stack, source, duration }) {
       <div className="w-full h-[200px]">
         <img src={img} className="h-full w-full rounded-tl-md rounded-tr-md" />
       </div>
-      <div className="bg-white w-full rounded-lg p-2">
+      <div className="bg-white w-full rounded-lg p-2 space-y-2">
         <div className="text-neutral-800 font-semibold text-lg w-full py-2">
           {title}
         </div>
-        <div className="text-neutral-800  ">{stack}</div>
+        <div className="text-slate-600">{description}</div>
+        <div className="text-neutral-800 flex flex-wrap gap-2 ">
+          {stack.map((item, index) => {
+            return (
+              <div key={index} className="border-2 px-2 py-1 rounded-full">
+                {item}
+              </div>
+            );
+          })}
+        </div>
       </div>
     </motion.div>
   );
